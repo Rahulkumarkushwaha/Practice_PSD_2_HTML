@@ -1,0 +1,165 @@
+/* font */
+@font-face {
+    font-family: PTSerifCaption-Regular;
+    src: url(../fonts/PTSerifCaption-Regular.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: PTSerifCaption-Regular;
+}
+
+/* body */
+body{
+    margin: 0;
+    
+}
+.uni-padding{
+    padding: 0 7%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+/* topbar */
+#topbar{
+    background-color: #576574;
+}
+
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top:5px ;
+
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 8px;
+}
+.fa-twitter{
+    padding: 7px 7px;
+}
+.fa-instagram{
+    padding: 7px 8px;
+}
+
+/* logobar */
+#logobar{    
+    width: 0px 20px;
+    margin: 0px;
+    
+}
+
+#navbar{
+    background-color: #ee5253;
+}
+
+#navbar ul li{
+display: inline-block;
+padding: 18px 0px;
+padding-right: 35px;
+/* margin: 0; */
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* poster */
+#poster{
+    background-image: url(../images/pic2.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 248, 246);
+    flex-direction: column;
+
+}
+#poster h1{
+    font-size: 50px;
+
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* why us
+#whusection{
+    overflow: auto;
+}
+.section33{
+    width: 33px;
+    float: ;
+    height: 5px;
+} */
+
+
+
+
+/* footer */
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+    
+}
+.div3{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div3 h3{
+    text-decoration:underline ;
+    text-underline-offset:  10px; 
+    text-decoration-thickness: 2px; 
+
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-menu-container{
+    padding-left: 100px;
+}
+
+
+#copyright{
+background-color: #222f3e;
+text-align: center;
+color: #cbcbcb;
+padding: 10px;
+}
